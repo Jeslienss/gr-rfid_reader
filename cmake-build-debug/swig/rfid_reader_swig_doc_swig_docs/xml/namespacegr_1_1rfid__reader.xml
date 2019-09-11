@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1rfid__reader" kind="namespace" language="C++">
+    <compoundname>gr::rfid_reader</compoundname>
+    <innerclass refid="classgr_1_1rfid__reader_1_1gate" prot="public">gr::rfid_reader::gate</innerclass>
+    <innerclass refid="classgr_1_1rfid__reader_1_1reader" prot="public">gr::rfid_reader::reader</innerclass>
+    <innerclass refid="structgr_1_1rfid__reader_1_1READER__STATE" prot="public">gr::rfid_reader::READER_STATE</innerclass>
+    <innerclass refid="structgr_1_1rfid__reader_1_1READER__STATS" prot="public">gr::rfid_reader::READER_STATS</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1rfid__reader_1ac78391b9005564e2192e395c34a9d788" prot="public" static="no">
+        <name>STATUS</name>
+        <enumvalue id="namespacegr_1_1rfid__reader_1ac78391b9005564e2192e395c34a9d788a05cf9545df815cb2f0a6970760034ac9" prot="public">
+          <name>RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1ac78391b9005564e2192e395c34a9d788adb5c7f7c79cf9052ff15e25235a27fec" prot="public">
+          <name>TERMINATED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="31" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2" prot="public" static="no">
+        <name>GEN2_LOGIC_STATUS</name>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2ac3761e6c4171a97c7c884310cf647959" prot="public">
+          <name>SEND_QUERY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2a8be8baa1cc52c37d758c73a6ba1bc778" prot="public">
+          <name>SEND_ACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2a1531710dccf4b76a5e5c12a9a2e4a2d8" prot="public">
+          <name>SEND_QUERY_REP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2aec23f844c11b0ba020e00242a4a74b06" prot="public">
+          <name>IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2adce7d81006f19eb81f97d54f230c2397" prot="public">
+          <name>SEND_CW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2a06919002f76e437cb903d43742f01b22" prot="public">
+          <name>START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2afb48b21c1105c2b6f754906cc59fce54" prot="public">
+          <name>SEND_QUERY_ADJUST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2ac7cee555f2dc6d500538efb761f4b5bb" prot="public">
+          <name>SEND_NAK_QR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2a39f38379d6f82c128cdc6738de1b590d" prot="public">
+          <name>SEND_NAK_Q</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2ab88a03ae8ab98172326bd2d90cfc2243" prot="public">
+          <name>POWER_DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="34" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="34" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1rfid__reader_1aa364826dcf7d0020c7ff044187a2571f" prot="public" static="no">
+        <name>GATE_STATUS</name>
+        <enumvalue id="namespacegr_1_1rfid__reader_1aa364826dcf7d0020c7ff044187a2571fa205bea83009e88501fa8dcb58e7540c0" prot="public">
+          <name>GATE_OPEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1aa364826dcf7d0020c7ff044187a2571fa4ff10ff7bceeddb7d606f93961131149" prot="public">
+          <name>GATE_CLOSED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1aa364826dcf7d0020c7ff044187a2571fa1f78844dd130522f4aab7d2cbea89f46" prot="public">
+          <name>GATE_SEEK_RN16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1aa364826dcf7d0020c7ff044187a2571fa54aa2b0b2de76ced7e82c74c94ee095e" prot="public">
+          <name>GATE_SEEK_EPC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="46" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1rfid__reader_1a7cf3989e995c8bb0653b2c241ac995c7" prot="public" static="no">
+        <name>DECODER_STATUS</name>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a7cf3989e995c8bb0653b2c241ac995c7aee0db0ab3c50a0230f63bd71946b2125" prot="public">
+          <name>DECODER_DECODE_RN16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1rfid__reader_1a7cf3989e995c8bb0653b2c241ac995c7ad8ebc09f9b008ca2873b039c2d60fd34" prot="public">
+          <name>DECODER_DECODE_EPC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="49" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="49" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ac8e262b21def17c940aadde72e4b740c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::FIXED_Q</definition>
+        <argsstring></argsstring>
+        <name>FIXED_Q</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="86" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ad91faef790b55d93c6ee02f7377fd0a4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::MAX_NUM_QUERIES</definition>
+        <argsstring></argsstring>
+        <name>MAX_NUM_QUERIES</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="90" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ab080c3230568b34d5e575d2419fe4adc" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::Q_VALUE[16][4]</definition>
+        <argsstring>[16][4]</argsstring>
+        <name>Q_VALUE</name>
+        <initializer>=
+                {
+                        {0, 0, 0, 0},
+                        {0, 0, 0, 1},
+                        {0, 0, 1, 0},
+                        {0, 0, 1, 1},
+                        {0, 1, 0, 0},
+                        {0, 1, 0, 1},
+                        {0, 1, 1, 0},
+                        {0, 1, 1, 1},
+                        {1, 0, 0, 0},
+                        {1, 0, 0, 1},
+                        {1, 0, 1, 0},
+                        {1, 0, 1, 1},
+                        {1, 1, 0, 0},
+                        {1, 1, 0, 1},
+                        {1, 1, 1, 0},
+                        {1, 1, 1, 1}
+                }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="93" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a475b8ab7741c0484107665abad2c1bc9" prot="public" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool gr::rfid_reader::P_DOWN</definition>
+        <argsstring></argsstring>
+        <name>P_DOWN</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="113" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ac5b11b74d0857db6000183736582dfcf" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::CW_D</definition>
+        <argsstring></argsstring>
+        <name>CW_D</name>
+        <initializer>= 250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="116" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1acf6e0512f973bd2cdd0dc1f2cfecad02" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::P_DOWN_D</definition>
+        <argsstring></argsstring>
+        <name>P_DOWN_D</name>
+        <initializer>= 2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="117" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a4e50a18ad897db0fc25554426cc0cc54" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::T1_D</definition>
+        <argsstring></argsstring>
+        <name>T1_D</name>
+        <initializer>= 240</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="118" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ab883cccaeb0db01e0f29576e2238c0b3" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::T2_D</definition>
+        <argsstring></argsstring>
+        <name>T2_D</name>
+        <initializer>= 480</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="119" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a29410d0dde532d5208256d78d4b29699" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::PW_D</definition>
+        <argsstring></argsstring>
+        <name>PW_D</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="120" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ac533478a86087240c6259bece441e142" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::DELIM_D</definition>
+        <argsstring></argsstring>
+        <name>DELIM_D</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="121" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a73e8d0829497c623b841bd8bb4c3325b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::TRCAL_D</definition>
+        <argsstring></argsstring>
+        <name>TRCAL_D</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="122" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a239c67184dcaa191cadd5c92b381e629" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::RTCAL_D</definition>
+        <argsstring></argsstring>
+        <name>RTCAL_D</name>
+        <initializer>= 72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="123" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ac525dc05f44d019f767d0ab74fec6201" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::NUM_PULSES_COMMAND</definition>
+        <argsstring></argsstring>
+        <name>NUM_PULSES_COMMAND</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="125" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1aa99c4f522dd85d459839858c135e59ad" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::NUMBER_UNIQUE_TAGS</definition>
+        <argsstring></argsstring>
+        <name>NUMBER_UNIQUE_TAGS</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="126" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a9dc0e43e805a185248f073115d787d7a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::PILOT_TONE</definition>
+        <argsstring></argsstring>
+        <name>PILOT_TONE</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="130" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ad59ff7abcc28e8cf30919b352d999c28" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::TAG_PREAMBLE_BITS</definition>
+        <argsstring></argsstring>
+        <name>TAG_PREAMBLE_BITS</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="131" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a17a6d7e7cd4e8c8a1cc43832ed1df76b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::RN16_BITS</definition>
+        <argsstring></argsstring>
+        <name>RN16_BITS</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="132" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a333a4df86addbf795f3488d0eceb90b3" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::EPC_BITS</definition>
+        <argsstring></argsstring>
+        <name>EPC_BITS</name>
+        <initializer>= 129</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="133" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ab3b4eb6ce7d6294c3c0b41cf89508b48" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::QUERY_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>QUERY_LENGTH</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="134" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ad12ad23553532bbd5cebb6a3eecd5572" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::T_READER_FREQ</definition>
+        <argsstring></argsstring>
+        <name>T_READER_FREQ</name>
+        <initializer>= 40e3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="136" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a7412553088615f5083cbe06ee22edeec" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::rfid_reader::TAG_BIT_D</definition>
+        <argsstring></argsstring>
+        <name>TAG_BIT_D</name>
+        <initializer>= 1.0 / <ref refid="namespacegr_1_1rfid__reader_1ad12ad23553532bbd5cebb6a3eecd5572" kindref="member">T_READER_FREQ</ref> * pow(10, 6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="137" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1aec46e3ef4afd718c5752551dd0eb6698" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::RN16_D</definition>
+        <argsstring></argsstring>
+        <name>RN16_D</name>
+        <initializer>= (<ref refid="namespacegr_1_1rfid__reader_1a17a6d7e7cd4e8c8a1cc43832ed1df76b" kindref="member">RN16_BITS</ref> + <ref refid="namespacegr_1_1rfid__reader_1ad59ff7abcc28e8cf30919b352d999c28" kindref="member">TAG_PREAMBLE_BITS</ref>) * <ref refid="namespacegr_1_1rfid__reader_1a7412553088615f5083cbe06ee22edeec" kindref="member">TAG_BIT_D</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="138" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1aecf44bf4c959f7d84211c2838af9d070" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::EPC_D</definition>
+        <argsstring></argsstring>
+        <name>EPC_D</name>
+        <initializer>= (<ref refid="namespacegr_1_1rfid__reader_1a333a4df86addbf795f3488d0eceb90b3" kindref="member">EPC_BITS</ref> + <ref refid="namespacegr_1_1rfid__reader_1ad59ff7abcc28e8cf30919b352d999c28" kindref="member">TAG_PREAMBLE_BITS</ref>) * <ref refid="namespacegr_1_1rfid__reader_1a7412553088615f5083cbe06ee22edeec" kindref="member">TAG_BIT_D</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="139" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a0f730a3022516e8d22ee95d97a90163d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::QUERY_CODE[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>QUERY_CODE</name>
+        <initializer>= {1, 0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="141" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a3e85a3e18f1506641c1ca0da25f7614d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::M[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>M</name>
+        <initializer>= {0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="142" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a177611109eb273e597dbb1c5ae93625e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::SEL[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SEL</name>
+        <initializer>= {0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="143" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a7bfce1d8d1c3e61c1f086960f4718ee6" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::SESSION[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SESSION</name>
+        <initializer>= {0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="144" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1aaa04e1d496b7fd34f7fc7287b2dcf929" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::TARGET</definition>
+        <argsstring></argsstring>
+        <name>TARGET</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="145" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ad1c521808025c3fc96d530035e481f72" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::TREXT</definition>
+        <argsstring></argsstring>
+        <name>TREXT</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="146" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a19c4151911902136e24e465594448fbf" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::DR</definition>
+        <argsstring></argsstring>
+        <name>DR</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="147" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1afd0fa598c2e8f0dc7c6de4e8465903e5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::NAK_CODE[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>NAK_CODE</name>
+        <initializer>= {1, 1, 0, 0, 0, 0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="150" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a0dabf7c1f6bb4adecf43693ca1f1aa2e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::ACK_CODE[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>ACK_CODE</name>
+        <initializer>= {0, 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="153" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a24973c67a661d532f1a40afe07ef2111" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::QADJ_CODE[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>QADJ_CODE</name>
+        <initializer>= {1, 0, 0, 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="156" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1ad202f724cfadd4f9615ab898df7a9503" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::Q_UPDN[3][3]</definition>
+        <argsstring>[3][3]</argsstring>
+        <name>Q_UPDN</name>
+        <initializer>= {{1, 1, 0},
+                                  {0, 0, 0},
+                                  {0, 1, 0}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="159" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a1c011013bc45ce88b13f148e594ba6a0" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::TAG_PREAMBLE[]</definition>
+        <argsstring>[]</argsstring>
+        <name>TAG_PREAMBLE</name>
+        <initializer>= {1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="164" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a9af084985b8d4a53ecd01c47e2fcea1b" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::rfid_reader::THRESH_FRACTION</definition>
+        <argsstring></argsstring>
+        <name>THRESH_FRACTION</name>
+        <initializer>= 0.75</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="167" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1acb455f1354b8771e7e31207fd35f770f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::WIN_SIZE_D</definition>
+        <argsstring></argsstring>
+        <name>WIN_SIZE_D</name>
+        <initializer>= 250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="168" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a280dff585a6fa8502ed2ef41072044fa" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::rfid_reader::DC_SIZE_D</definition>
+        <argsstring></argsstring>
+        <name>DC_SIZE_D</name>
+        <initializer>= 120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="171" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1rfid__reader_1a01522ce02b9999abe38de7aafac489cd" prot="public" static="no" mutable="no">
+        <type><ref refid="structgr_1_1rfid__reader_1_1READER__STATE" kindref="compound">READER_STATE</ref> *</type>
+        <definition>READER_STATE* gr::rfid_reader::reader_state</definition>
+        <argsstring></argsstring>
+        <name>reader_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="174" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1rfid__reader_1a31e5c4686a80857985d45ef01b5c2ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rfid_reader::initialize_reader_state</definition>
+        <argsstring>()</argsstring>
+        <name>initialize_reader_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="176" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/gate.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

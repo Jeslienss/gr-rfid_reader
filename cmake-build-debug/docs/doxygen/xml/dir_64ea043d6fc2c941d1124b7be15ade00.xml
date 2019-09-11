@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_64ea043d6fc2c941d1124b7be15ade00" kind="dir">
+    <compoundname>rfid_reader</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="gate_8h">gate.h</innerfile>
+    <innerfile refid="global__vars_8h">global_vars.h</innerfile>
+    <innerfile refid="reader_8h">reader.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/"/>
+  </compounddef>
+</doxygen>

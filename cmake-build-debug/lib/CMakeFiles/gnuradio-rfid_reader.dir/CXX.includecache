@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/rfid_reader/api.h
+gnuradio/attributes.h
+-
+
+../include/rfid_reader/gate.h
+rfid_reader/api.h
+-
+gnuradio/block.h
+-
+
+/home/jiawei/gr-rfid_reader/lib/gate_impl.cc
+config.h
+/home/jiawei/gr-rfid_reader/lib/config.h
+gnuradio/io_signature.h
+-
+gate_impl.h
+/home/jiawei/gr-rfid_reader/lib/gate_impl.h
+
+/home/jiawei/gr-rfid_reader/lib/gate_impl.h
+rfid_reader/gate.h
+-
+

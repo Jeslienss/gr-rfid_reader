@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio RFID_READER C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the RFID_READER GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

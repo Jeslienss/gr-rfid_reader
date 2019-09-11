@@ -1,0 +1,57 @@
+/home/jiawei/Jetbrains/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jiawei/gr-rfid_reader
+CMake Deprecation Warning at CMakeLists.txt:55 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:58 (cmake_policy):
+  The OLD behavior for policy CMP0043 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:61 (cmake_policy):
+  The OLD behavior for policy CMP0045 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+CMake Deprecation Warning at CMakeLists.txt:64 (cmake_policy):
+  The OLD behavior for policy CMP0046 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+Checking for GNU Radio Module: RUNTIME
+ * INCLUDES=/usr/local/include
+ * LIBS=/usr/local/lib/libgnuradio-runtime.so;/usr/local/lib/libgnuradio-pmt.so
+GNURADIO_RUNTIME_FOUND = TRUE
+-- Using install prefix: /usr/local
+-- Building for version: v1.0-compat-xxx-xunknown / 1.0.0git
+-- 
+-- Checking for module SWIG
+-- Found SWIG version 3.0.8.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jiawei/gr-rfid_reader/cmake-build-debug

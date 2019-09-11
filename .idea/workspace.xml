@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="gr-rfid_reader" targetName="doxygen_target" />
+      <config projectName="gr-rfid_reader" targetName="rfid_reader_swig_swig_2d0df" />
+      <config projectName="gr-rfid_reader" targetName="_rfid_reader_swig" />
+      <config projectName="gr-rfid_reader" targetName="gnuradio-rfid_reader" />
+      <config projectName="gr-rfid_reader" targetName="uninstall" />
+      <config projectName="gr-rfid_reader" targetName="pygen_python_ca436" />
+      <config projectName="gr-rfid_reader" targetName="_rfid_reader_swig_swig_tag" />
+      <config projectName="gr-rfid_reader" targetName="rfid_reader_swig_swig_doc" />
+      <config projectName="gr-rfid_reader" targetName="pygen_swig_98a17" />
+      <config projectName="gr-rfid_reader" targetName="test-rfid_reader" />
+      <config projectName="gr-rfid_reader" targetName="_rfid_reader_swig_doc_tag" />
+      <config projectName="gr-rfid_reader" targetName="pygen_apps_9a6dd" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f892b97-35ac-49e9-bc0e-22f52a71497a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-gnuradio-rfid_reader" />
+  </component>
+  <component name="ProjectId" id="1QfMETFwM45xlW9IkQdYlp9b0EX" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.test-rfid_reader">
+    <configuration name="_rfid_reader_swig" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="_rfid_reader_swig" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rfid_reader_swig_doc_tag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="_rfid_reader_swig_doc_tag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-rfid_reader" RUN_TARGET_NAME="_rfid_reader_swig_doc_tag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_rfid_reader_swig_swig_tag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="_rfid_reader_swig_swig_tag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-rfid_reader" RUN_TARGET_NAME="_rfid_reader_swig_swig_tag">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doxygen_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="doxygen_target" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gnuradio-rfid_reader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="gnuradio-rfid_reader" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pygen_apps_9a6dd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="pygen_apps_9a6dd" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pygen_python_ca436" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="pygen_python_ca436" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pygen_swig_98a17" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="pygen_swig_98a17" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rfid_reader_swig_swig_2d0df" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="rfid_reader_swig_swig_2d0df" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-rfid_reader" RUN_TARGET_NAME="rfid_reader_swig_swig_2d0df">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rfid_reader_swig_swig_doc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="rfid_reader_swig_swig_doc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test-rfid_reader" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="test-rfid_reader" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-rfid_reader" RUN_TARGET_NAME="test-rfid_reader">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-rfid_reader" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.pygen_apps_9a6dd" />
+      <item itemvalue="CMake Application.doxygen_target" />
+      <item itemvalue="CMake Application.gnuradio-rfid_reader" />
+      <item itemvalue="CMake Application.test-rfid_reader" />
+      <item itemvalue="CMake Application.pygen_python_ca436" />
+      <item itemvalue="CMake Application._rfid_reader_swig" />
+      <item itemvalue="CMake Application._rfid_reader_swig_doc_tag" />
+      <item itemvalue="CMake Application._rfid_reader_swig_swig_tag" />
+      <item itemvalue="CMake Application.pygen_swig_98a17" />
+      <item itemvalue="CMake Application.rfid_reader_swig_swig_2d0df" />
+      <item itemvalue="CMake Application.rfid_reader_swig_swig_doc" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f892b97-35ac-49e9-bc0e-22f52a71497a" name="Default Changelist" comment="" />
+      <created>1568157085151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568157085151</updated>
+      <workItem from="1568157086381" duration="12292000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

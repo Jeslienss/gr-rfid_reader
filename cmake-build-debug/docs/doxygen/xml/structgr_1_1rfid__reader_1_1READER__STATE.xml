@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structgr_1_1rfid__reader_1_1READER__STATE" kind="struct" language="C++" prot="public">
+    <compoundname>gr::rfid_reader::READER_STATE</compoundname>
+    <includes refid="global__vars_8h" local="no">global_vars.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1a79e86405115041c978f9d82c4f9d79ad" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacegr_1_1rfid__reader_1ac78391b9005564e2192e395c34a9d788" kindref="member">STATUS</ref></type>
+        <definition>STATUS gr::rfid_reader::READER_STATE::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="72" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1a99d0f36f6bee3be71f2eb1249d0fdbbd" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacegr_1_1rfid__reader_1a05b95922dd36be48f92a5f57dcece1b2" kindref="member">GEN2_LOGIC_STATUS</ref></type>
+        <definition>GEN2_LOGIC_STATUS gr::rfid_reader::READER_STATE::gen2_logic_status</definition>
+        <argsstring></argsstring>
+        <name>gen2_logic_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="73" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1a294c02811444c680ac989a6d10f9869d" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacegr_1_1rfid__reader_1aa364826dcf7d0020c7ff044187a2571f" kindref="member">GATE_STATUS</ref></type>
+        <definition>GATE_STATUS gr::rfid_reader::READER_STATE::gate_status</definition>
+        <argsstring></argsstring>
+        <name>gate_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="74" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1ab8a758baabf851dbf4d61f7b2e6ea857" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacegr_1_1rfid__reader_1a7cf3989e995c8bb0653b2c241ac995c7" kindref="member">DECODER_STATUS</ref></type>
+        <definition>DECODER_STATUS gr::rfid_reader::READER_STATE::decoder_status</definition>
+        <argsstring></argsstring>
+        <name>decoder_status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="75" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1a4a0bff7189a82d6412a8bddbcf984aeb" prot="public" static="no" mutable="no">
+        <type><ref refid="structgr_1_1rfid__reader_1_1READER__STATS" kindref="compound">READER_STATS</ref></type>
+        <definition>READER_STATS gr::rfid_reader::READER_STATE::reader_stats</definition>
+        <argsstring></argsstring>
+        <name>reader_stats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="76" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1a432da2cafff50d5ac76703b2c7f5bb2b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::rfid_reader::READER_STATE::magn_squared_samples</definition>
+        <argsstring></argsstring>
+        <name>magn_squared_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="79" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1rfid__reader_1_1READER__STATE_1aa37699cdd11fd1dff9fb924e18cdb9ee" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rfid_reader::READER_STATE::n_samples_to_ungate</definition>
+        <argsstring></argsstring>
+        <name>n_samples_to_ungate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="80" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="24">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="23">
+        <label>gr::rfid_reader::READER_STATE</label>
+        <link refid="structgr_1_1rfid__reader_1_1READER__STATE"/>
+        <childnode refid="24" relation="usage">
+          <edgelabel>magn_squared_samples</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>reader_stats</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>gr::rfid_reader::READER_STATS</label>
+        <link refid="structgr_1_1rfid__reader_1_1READER__STATS"/>
+        <childnode refid="26" relation="usage">
+          <edgelabel>tag_reads</edgelabel>
+        </childnode>
+        <childnode refid="27" relation="usage">
+          <edgelabel>unique_tags_round</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>std::map&lt; int, int &gt;</label>
+      </node>
+      <node id="27">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" line="71" column="1" bodyfile="/home/jiawei/gr-rfid_reader/include/rfid_reader/global_vars.h" bodystart="71" bodyend="81"/>
+    <listofallmembers>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1ab8a758baabf851dbf4d61f7b2e6ea857" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>decoder_status</name></member>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1a294c02811444c680ac989a6d10f9869d" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>gate_status</name></member>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1a99d0f36f6bee3be71f2eb1249d0fdbbd" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>gen2_logic_status</name></member>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1a432da2cafff50d5ac76703b2c7f5bb2b" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>magn_squared_samples</name></member>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1aa37699cdd11fd1dff9fb924e18cdb9ee" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>n_samples_to_ungate</name></member>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1a4a0bff7189a82d6412a8bddbcf984aeb" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>reader_stats</name></member>
+      <member refid="structgr_1_1rfid__reader_1_1READER__STATE_1a79e86405115041c978f9d82c4f9d79ad" prot="public" virt="non-virtual"><scope>gr::rfid_reader::READER_STATE</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

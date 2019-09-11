@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1rfid__reader_1_1gate__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::rfid_reader::gate_impl</compoundname>
+    <basecompoundref refid="classgr_1_1rfid__reader_1_1gate" prot="public" virt="non-virtual">gr::rfid_reader::gate</basecompoundref>
+    <includes refid="gate__impl_8h" local="no">gate_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1rfid__reader_1_1gate__impl_1ab29f2684e76ea58e8af562a57662e77b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::rfid_reader::gate_impl::gate_impl</definition>
+        <argsstring>(int sample_rate)</argsstring>
+        <name>gate_impl</name>
+        <param>
+          <type>int</type>
+          <declname>sample_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/lib/gate_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rfid__reader_1_1gate__impl_1a7e14318b03828fc101f0ee8e7aaf3876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::rfid_reader::gate_impl::~gate_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~gate_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/lib/gate_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rfid__reader_1_1gate__impl_1aae1614ac8e24474743d6af2b7dac8e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rfid_reader::gate_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/lib/gate_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rfid__reader_1_1gate__impl_1aa465f204276bdfbb76b67660e8b67905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::rfid_reader::gate_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/jiawei/gr-rfid_reader/lib/gate_impl.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::rfid_reader::gate</label>
+        <link refid="classgr_1_1rfid__reader_1_1gate"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+      <node id="5">
+        <label>gr::rfid_reader::gate_impl</label>
+        <link refid="classgr_1_1rfid__reader_1_1gate__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::rfid_reader::gate</label>
+        <link refid="classgr_1_1rfid__reader_1_1gate"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+      <node id="8">
+        <label>gr::rfid_reader::gate_impl</label>
+        <link refid="classgr_1_1rfid__reader_1_1gate__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/jiawei/gr-rfid_reader/lib/gate_impl.h" line="30" column="1" bodyfile="/home/jiawei/gr-rfid_reader/lib/gate_impl.h" bodystart="29" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classgr_1_1rfid__reader_1_1gate__impl_1aae1614ac8e24474743d6af2b7dac8e10" prot="public" virt="non-virtual"><scope>gr::rfid_reader::gate_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1rfid__reader_1_1gate__impl_1ab29f2684e76ea58e8af562a57662e77b" prot="public" virt="non-virtual"><scope>gr::rfid_reader::gate_impl</scope><name>gate_impl</name></member>
+      <member refid="classgr_1_1rfid__reader_1_1gate__impl_1aa465f204276bdfbb76b67660e8b67905" prot="public" virt="non-virtual"><scope>gr::rfid_reader::gate_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1rfid__reader_1_1gate_1ad38be82e15e94a3900557b2981db5cc1" prot="public" virt="non-virtual"><scope>gr::rfid_reader::gate_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1rfid__reader_1_1gate_1a2e1b64215f19691f6325916eb0c88421" prot="public" virt="non-virtual"><scope>gr::rfid_reader::gate_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1rfid__reader_1_1gate__impl_1a7e14318b03828fc101f0ee8e7aaf3876" prot="public" virt="non-virtual"><scope>gr::rfid_reader::gate_impl</scope><name>~gate_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
