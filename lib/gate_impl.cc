@@ -75,13 +75,24 @@ namespace gr {
             const gr_complex *in = (const gr_complex *) input_items[0];
             gr_complex *out = (gr_complex *) output_items[0];
 
-            // Do <+signal processing+>
-            // Tell runtime system how many input items we consumed on
-            // each input stream.
-            consume_each(noutput_items);
+            int n_items = ninput_items[0];
+
+            if (tf) {
+                tf = false;
+                tm = 1;
+            } else {
+                tf = true;
+                tm = 10;
+            }
+
+            for (int i = 0; i < n_items; i++) {
+                out[i] = gr_complex(in[i].real() * tm, in[i].imag() * tm);
+            }
+
+            consume_each(n_items);
 
             // Tell runtime system how many output items we produced.
-            return noutput_items;
+            return n_items;
         }
 
     } /* namespace rfid_reader */

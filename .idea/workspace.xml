@@ -23,19 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f892b97-35ac-49e9-bc0e-22f52a71497a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/reader_impl.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/reader_impl.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/test-rfid_reader.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/test-rfid_reader.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgnuradio-rfid_reader-1.0.0git.so.0.0.0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgnuradio-rfid_reader-1.0.0git.so.0.0.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/test-rfid_reader" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/test-rfid_reader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grc/rfid_reader_gate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grc/rfid_reader_gate.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/gate_impl.cc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gate_impl.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/gate_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gate_impl.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568157085151</updated>
       <workItem from="1568157086381" duration="12292000" />
-      <workItem from="1568331214273" duration="152000" />
+      <workItem from="1568331214273" duration="350000" />
     </task>
     <servers />
   </component>

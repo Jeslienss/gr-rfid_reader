@@ -24,12 +24,6 @@ map
 sys/time.h
 -
 
-../include/rfid_reader/reader.h
-rfid_reader/api.h
--
-gnuradio/block.h
--
-
 /home/jiawei/gr-rfid_reader/lib/gate_impl.cc
 config.h
 /home/jiawei/gr-rfid_reader/lib/config.h
@@ -45,32 +39,4 @@ vector
 -
 rfid_reader/global_vars.h
 /home/jiawei/gr-rfid_reader/lib/rfid_reader/global_vars.h
-
-/home/jiawei/gr-rfid_reader/lib/global_vars.cc
-config.h
-/home/jiawei/gr-rfid_reader/lib/config.h
-gnuradio/io_signature.h
--
-rfid_reader/global_vars.h
--
-
-/home/jiawei/gr-rfid_reader/lib/reader_impl.cc
-config.h
-/home/jiawei/gr-rfid_reader/lib/config.h
-gnuradio/io_signature.h
--
-reader_impl.h
-/home/jiawei/gr-rfid_reader/lib/reader_impl.h
-rfid_reader/global_vars.h
-/home/jiawei/gr-rfid_reader/lib/rfid_reader/global_vars.h
-
-/home/jiawei/gr-rfid_reader/lib/reader_impl.h
-rfid_reader/reader.h
--
-vector
--
-queue
--
-fstream
--
 
