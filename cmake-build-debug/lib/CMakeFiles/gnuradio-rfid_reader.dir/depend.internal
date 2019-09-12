@@ -4,6 +4,7 @@
 lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o
  ../include/rfid_reader/api.h
  ../include/rfid_reader/gate.h
+ ../include/rfid_reader/global_vars.h
  /home/jiawei/gr-rfid_reader/lib/gate_impl.cc
  /home/jiawei/gr-rfid_reader/lib/gate_impl.h
 lib/CMakeFiles/gnuradio-rfid_reader.dir/global_vars.cc.o

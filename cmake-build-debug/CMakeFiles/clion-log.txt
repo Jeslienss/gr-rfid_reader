@@ -47,8 +47,9 @@ Checking for GNU Radio Module: RUNTIME
  * INCLUDES=/usr/local/include
  * LIBS=/usr/local/lib/libgnuradio-runtime.so;/usr/local/lib/libgnuradio-pmt.so
 GNURADIO_RUNTIME_FOUND = TRUE
+-- Extracting version information from git describe...
 -- Using install prefix: /usr/local
--- Building for version: v1.0-compat-xxx-xunknown / 1.0.0git
+-- Building for version: 175c4d1d / 1.0.0git
 -- 
 -- Checking for module SWIG
 -- Found SWIG version 3.0.8.

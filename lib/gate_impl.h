@@ -30,6 +30,10 @@ namespace gr {
 
         class gate_impl : public gate {
         private:
+            // DEBUG
+            bool tf;
+            int tm;
+
             enum SIGNAL_STATE {NEG_EDGE, POS_EDGE};
 
             int   n_samples, n_samples_T1, n_samples_PW, n_samples_TAG_BIT;

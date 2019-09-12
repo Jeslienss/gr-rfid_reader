@@ -3,6 +3,7 @@
 
 lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o: ../include/rfid_reader/api.h
 lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o: ../include/rfid_reader/gate.h
+lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o: ../include/rfid_reader/global_vars.h
 lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o: ../lib/gate_impl.cc
 lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o: ../lib/gate_impl.h
 

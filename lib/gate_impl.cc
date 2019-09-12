@@ -53,7 +53,7 @@ namespace gr {
             win_samples.resize(win_length);
             dc_samples.resize(dc_length);
 
-
+            tf = true;
         }
 
         /*

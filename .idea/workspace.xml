@@ -7,12 +7,12 @@
       <config projectName="gr-rfid_reader" targetName="_rfid_reader_swig" />
       <config projectName="gr-rfid_reader" targetName="gnuradio-rfid_reader" />
       <config projectName="gr-rfid_reader" targetName="uninstall" />
-      <config projectName="gr-rfid_reader" targetName="pygen_python_ca436" />
       <config projectName="gr-rfid_reader" targetName="_rfid_reader_swig_swig_tag" />
+      <config projectName="gr-rfid_reader" targetName="pygen_python_ca436" />
       <config projectName="gr-rfid_reader" targetName="rfid_reader_swig_swig_doc" />
       <config projectName="gr-rfid_reader" targetName="pygen_swig_98a17" />
-      <config projectName="gr-rfid_reader" targetName="test-rfid_reader" />
       <config projectName="gr-rfid_reader" targetName="_rfid_reader_swig_doc_tag" />
+      <config projectName="gr-rfid_reader" targetName="test-rfid_reader" />
       <config projectName="gr-rfid_reader" targetName="pygen_apps_9a6dd" />
     </generated>
   </component>
@@ -22,7 +22,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f892b97-35ac-49e9-bc0e-22f52a71497a" name="Default Changelist" comment="" />
+    <list default="true" id="8f892b97-35ac-49e9-bc0e-22f52a71497a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/gate_impl.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/reader_impl.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/gnuradio-rfid_reader.dir/reader_impl.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/test-rfid_reader.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/CMakeFiles/test-rfid_reader.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/libgnuradio-rfid_reader-1.0.0git.so.0.0.0" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/libgnuradio-rfid_reader-1.0.0git.so.0.0.0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/test-rfid_reader" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/test-rfid_reader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gate_impl.cc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gate_impl.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gate_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gate_impl.h" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +47,16 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="OCResolveContextSettings">
     <option name="configuration" value="0-gnuradio-rfid_reader" />
   </component>
   <component name="ProjectId" id="1QfMETFwM45xlW9IkQdYlp9b0EX" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -149,10 +167,22 @@
       <option name="presentableId" value="Default" />
       <updated>1568157085151</updated>
       <workItem from="1568157086381" duration="12292000" />
+      <workItem from="1568331214273" duration="152000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
